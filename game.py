@@ -40,19 +40,6 @@ class Villian(object):
         """Counter incremented everytime the player attacks"""
         self.attack_count = self.attack_count + 1
 
-#class Hero(object):
-#    ## This is not implemented yet ##
-#    def __init__(self):
-#        self.player_lvl
-#        self.health = PLAYER_STATS[0]
-#        self.gold = PLAYER_STATS[1]
-#        self.experience = PLAYER_STATS[2]
-#        self.attack = 0
-#    ## This is not implemented yet ##
-#    def calculate_attack(self):
-#        self.attack = equipped_item_attack * \
-#        (random.randfloat(.1, .4) * player_lvl)
-
 def start_game():
     """for now this is how I start the game."""
     print "You leave the ground level and "
