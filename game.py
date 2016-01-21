@@ -1,4 +1,4 @@
-"""a basic text dungeon"""
+"""a basic text dungeon for learn python the hardway exercise"""
 import random
 import time
 import os
